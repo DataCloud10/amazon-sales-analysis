@@ -1,42 +1,89 @@
-# Analisi Vendite Amazon India
+# Amazon India Sales Analysis
 
 ## 📊 Overview
-Questo progetto analizza un dataset di vendite di Amazon India, focalizzandosi su prezzi, sconti, rating e pattern di recensioni. L'analisi fornisce insights sul comportamento dei prezzi e delle recensioni dei clienti attraverso diverse categorie di prodotti.
+This project analyzes an Amazon India sales dataset, focusing on prices, discounts, ratings, and review patterns. The analysis provides insights into pricing behavior and customer reviews across different product categories.
 
-## 🔍 Principali Findings
+## 🔍 Key Findings
 
-### Analisi Prezzi
-- La maggior parte dei prodotti si colloca nella fascia di prezzo €10-€100
-- Le categorie più costose sono principalmente nel settore degli elettrodomestici e dell'elettronica
-- Esiste una significativa variabilità di prezzo tra le categorie
+### Price Analysis
+- Most products fall within the €10-€100 price range
+- The most expensive categories are primarily in appliances and electronics
+- Significant price variability exists across categories
 
-### Analisi Rating
-- Rating medio complessivo: 4.1★
-- La maggior parte dei prodotti ha un rating tra 4.0 e 4.5
-- Non c'è una forte correlazione tra prezzo e rating
-- I prodotti più recensiti tendono ad avere rating più alti
+### Rating Analysis
+- Overall average rating: 4.1★
+- Most products rated between 4.0 and 4.5
+- No strong correlation between price and rating
+- Most reviewed products tend to have higher ratings
 
-### Analisi Sconti
-- Sconto medio: 47.7%
-- Alcune categorie mostrano sconti consistentemente più alti
-- Gli accessori tendono ad avere sconti maggiori rispetto ai dispositivi principali
-- Non c'è una chiara correlazione tra prezzo e percentuale di sconto
+### Discount Analysis
+- Average discount: 47.7%
+- Some categories consistently show higher discounts
+- Accessories tend to have higher discounts than main devices
+- No clear correlation between price and discount percentage
 
-## 🛠️ Tecnologie Utilizzate
+## 🛠️ Technologies Used
 - Python 3.9+
 - pandas
 - matplotlib
 - seaborn
 - numpy
 
-## 📈 Visualizzazioni
-Il progetto genera tre tipi principali di visualizzazioni:
-1. Analisi dei prezzi e distribuzione
-2. Analisi dei rating e recensioni
-3. Analisi degli sconti e correlazioni
+## 📈 Visualizations
+The project generates three main types of visualizations:
+1. Price analysis and distribution
+2. Rating and review analysis
+3. Discount analysis and correlations
 
-## 🚀 Come Iniziare
+## 🚀 Getting Started
 
-### Prerequisiti
+### Prerequisites
 ```bash
 pip install -r requirements.txt
+```
+
+### Execution
+```bash
+python src/amazon_analysis.py
+```
+
+## 📁 Project Structure
+```
+amazon-sales-analysis/
+├── data/               # Dataset
+├── src/               # Source code
+├── graphs/            # Generated visualizations
+├── notebooks/         # Jupyter notebooks for exploratory analysis
+└── requirements.txt   # Dependencies
+```
+
+## 📊 Output
+The program generates:
+- Basic descriptive statistics
+- Three detailed visualizations
+- Top products insights
+
+## 🔍 Key Conclusions
+1. **Prices**:
+   - High variability across categories
+   - Log-normal price distribution
+   - Some categories maintain consistently higher prices
+
+2. **Ratings**:
+   - Generally positive ratings
+   - Most reviewed products show stable ratings
+   - Little correlation between price and customer satisfaction
+
+3. **Discounts**:
+   - Aggressive discount strategy
+   - Higher discounts on accessories
+   - Similar discount patterns in related categories
+
+## 📧 Contact
+For any questions or feedback about this project, feel free to reach out:
+- Email: claudmarte10@gmail.com
+
+
+
+
+
